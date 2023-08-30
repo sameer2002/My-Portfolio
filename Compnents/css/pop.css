@@ -1,0 +1,41 @@
+
+  
+  .tooltip {
+    visibility:hidden;
+    opacity: 0;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    top: 2em;
+    position: absolute;
+    z-index: 1;
+    opacity: 1;
+    transition: 0.3s ease-in;
+    box-shadow: 6px 6px 20px 2px #bcbcbc;
+    
+  }
+  .arrow{
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    rotate: 45deg;
+    bottom: 14.78em;
+    left: 21px;
+    
+
+}
+#popup{
+    position: relative;
+    cursor: pointer;
+}
+#popup:hover .tooltip{
+    visibility: visible;
+  opacity: 1;
+  
+} 
+  
+  

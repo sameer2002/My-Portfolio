@@ -1,0 +1,210 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,500;6..96,600;6..96,700;6..96,800&family=Great+Vibes&family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+/*font-family: 'Bodoni Moda', serif;
+font-family: 'Great Vibes', cursive;*/
+font-family: 'Josefin Sans', sans-serif;
+overflow: hidden;
+}
+
+.main-container{
+    width: 100%;
+    background-color: black;
+    background-image: url(/Images/leone-venter-VieM9BdZKFo-unsplash.jpg);
+    height: 100vh;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+#container{
+  transform: translateY(100%); /* start position */
+  opacity: 0; /* make content invisible initially */
+
+  position: relative;
+  top: 0;
+
+  transition: transform 1s;
+  box-shadow: -6px 16px 20px 2px #bcbcbc;
+    scale: 0.6;
+    width: 210mm;
+    /* margin: auto; */
+    height: 297mm;
+    background-color: #fff6eb;
+    /*background-image: url(/Images/kiwihug-y_2GC4EhOP4-unsplash.jpg);*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px;
+  
+    
+    }
+    .my-det>img{
+       width: 13%;
+    }
+    .my-det{
+      margin-top: 20px;
+        font-family: 'Great Vibes', cursive;
+        letter-spacing: 2px;
+        font-size: 2em;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .my-name{
+      display: grid;
+      gap: 0.2em;
+    }
+    .my-name>p{
+      font-size: 20px;
+      font-weight: 600;
+
+    }
+    .my-name>p a{
+        text-decoration: none;
+        color: black;
+        font-size: 12px;
+        font-weight: 600;
+        font-family: 'Bodoni Moda', serif
+    }
+    .det-colomns{
+      margin-top: 20px;
+    }
+hr{
+    border: 3px solid brown;
+    margin-top:10px ;
+    margin-bottom: 10px;
+ }
+ .left-container{
+  width: 50%;
+  height: 250mm;
+  padding: 10px;
+ }
+ .right-container{
+  
+  width: 100%;
+  height: 250mm;
+  padding: 10px;
+ }
+ .below-container{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: center;
+ }
+ .heading>a{
+ 
+   text-decoration: none;
+   font-size: 20px;
+   font-weight: bold;
+   color: black;
+   cursor: pointer;
+   text-decoration: underline;
+ }
+ .heading>a:hover{
+   color: red;
+   transition: ease-in 0.3s;
+ }
+ .heading{
+   display: flex;
+   justify-content: space-between;
+   align-items: center ;
+ }
+ .collage-name>h3{
+    font-size: 18px;
+    font-weight: bold;
+ }
+ .education-det{
+    margin-top: 10px;
+    display: grid;  
+    gap: 0.5em;  
+ }
+ .program>p{
+    font-size: 16px;
+    font-weight: 400;
+ }
+ .skill{
+    display: grid;
+    gap: 0.3em;
+ }
+ .skill>p{
+   font-size: 16px;
+    font-weight: 400;
+ }
+ .coursework{
+  display: grid;
+    gap: 0.5em;
+ }
+ .links>p a{
+  font-size: 16px;
+  font-weight: 400;
+
+ }
+ p{
+  font-size: 16px;
+  font-weight: 400;
+ }
+ .coursework>p{
+  font-size: 16px;
+    font-weight: 800;
+ }
+ .project{
+  display: grid;
+  gap: 0.5em;
+  margin-top: 20px;
+ }
+ .project>h3{
+  font-size: 20px;
+  text-decoration: underline;
+  
+ }
+ .project>h4{
+    font-size: 16px;
+    font-weight: 600;
+ }
+ .about>li{
+   font-size: 15px;
+   font-weight: 400;
+   line-height: 20px;
+ }
+ .about{
+   margin-left: 20px;
+   display: grid;
+   gap: 0.5em;
+ }
+ .internship-name{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   
+ }
+ .internship-name>h3{
+   font-size: 20px;
+   text-decoration: underline;
+ }.internship-name>p{
+   font-size: 16px;
+ }
+ .internship{
+   display: grid;
+   gap: 0.5em;
+   margin-top: 20px;
+ }
+ .internship>h4{
+   font-size: 14px;
+   font-weight: 800;
+ }
+ .internship>p{
+  font-size: 15px;
+   font-weight: 400;
+   line-height: 20px;
+ }
+
+
