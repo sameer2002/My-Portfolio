@@ -14,7 +14,7 @@ overflow: hidden;
 .main-container{
     width: 100%;
     background-color: black;
-    background-image: url(/Images/leone-venter-VieM9BdZKFo-unsplash.jpg);
+    background-image: url(image/leone-venter-VieM9BdZKFo-unsplash.jpg);
     height: 100vh;  
     display: flex;
     align-items: center;
