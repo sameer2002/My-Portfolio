@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="loco.css">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
@@ -28,7 +29,7 @@
                         <h1 class="boundingelem" id="secondh1" style="color: black;">Developer</h1>
                     </div>
                     <div class="bounding">
-                        <h5 class="boundingelem">Driven by curiosity, fueled by innovation</h5>
+                        <h5 class="boundingelem" >Driven by curiosity, fueled by innovation</h5>
                     </div>
                 </div>
             </div>
@@ -40,7 +41,7 @@
             </div>
             <div id="herofooter">
                 <a href="resume.html">My Resume<i class="ri-arrow-right-up-line"></i></a>
-                <a href="#">Conatct Us <i class="ri-arrow-right-up-line"></i></a>
+                <a href="#" id="let-talk">Conatct Us <i class="ri-arrow-right-up-line"></i></a>
                 <div id="iconset">
                     <div class="circle"><i class="ri-arrow-down-line"></i></div>
                     <div class="circle"><i class="ri-arrow-down-line"></i></div>
@@ -89,7 +90,7 @@
                     series, playing video games Or in GYM. My Development philosophy is simple: make it visually appealing,
                     functional, and bring a smile to people's faces. I'm the designer you want on your team if you want
                     to make people say 'I need that in my life!'.</p>
-                <a href="">Let's talk</a>
+                <a href="#" id="let-talk">Let's talk</a>
             </div>
         </div>
         <div id="footer">
@@ -102,6 +103,22 @@
             </div>
         </div>
     </div>
+    <div class="blur">
+        <div class="contact-form">
+            <a href="#" id="close" ><span class="material-symbols-outlined">
+                close
+                </span></a>
+            <form action="https://formspree.io/f/mnqkvnno" method="POST">
+                
+                <input type="text" id="name" name="name" placeholder="Name" required>
+                <input type="email" id="email" name="_replyto" placeholder="Email: " required>
+                <textarea id="message" name="message" placeholder="Message"></textarea>
+        
+                <button id="btn" type="submit">Submit</button>
+              </form>
+        </div>
+
+    </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"
         integrity="sha512-cOH8ndwGgPo+K7pTvMrqYbmI8u8k6Sho3js0gOqVWTmQMlLIi6TbqGWRTpf1ga8ci9H3iPsvDLr4X7xwhC/+DQ=="
@@ -109,6 +126,7 @@
         
     <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
     <script src="script.js"></script>
+    <script src="contact.js"></script>
 </body>
 
 </html>

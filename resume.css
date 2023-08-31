@@ -208,3 +208,126 @@ hr{
  }
 
 
+ @media only screen and (max-width: 600px) {
+  #container {
+    transform: translateY(100%);
+    opacity: 0;
+    /* position: relative; */
+    top: 0;
+    /* transition: transform 1s; */
+    /* box-shadow: -6px 16px 20px 2px #bcbcbc; */
+    scale: 1;
+    width: 91%;
+    /* margin: auto; */
+    height: 100%;
+    /* background-color: #fff6eb; */
+    /* background-image: url(/Images/kiwihug-y_2GC4EhOP4-unsplash.jpg); */
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    padding: 10px;
+}
+.my-name>p {
+  font-size: 12px;
+  /* font-weight: 600; */
+}
+.my-name>h2{
+  font-size: 24px;
+}
+.heading>h2{
+  font-size: 18px;
+}
+.collage-name>h3 {
+  font-size: 14px;
+  /* font-weight: bold; */
+}
+.program>p {
+  font-size: 12px;
+  /* font-weight: 400; */
+}
+.skill>p {
+  font-size: 11px;
+  /* font-weight: 400; */
+}
+.coursework>p {
+  font-size: 11px;
+  /* font-weight: 800; */
+}
+.about>li {
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 15px;
+}
+.project>h3 {
+  font-size: 14px;
+  text-decoration: underline;
+}
+.project>h4 {
+  font-size: 12px;
+  font-weight: 600;
+}
+.about {
+  /* margin-left: 20px; */
+  /* display: grid; */
+  gap: 0.2em;
+}
+.det-colomns {
+  margin-top: 5px;
+}
+.project {
+  display: grid;
+  gap: 0.2em;
+  margin-top: 11px;
+}
+.coursework {
+  display: grid;
+  gap: 0.2em;
+}
+.education-det {
+  margin-top: 5px;
+  display: grid;
+  gap: 0.2em;
+}
+p {
+  font-size: 11px;
+  font-weight: 400;
+}
+.links>p a {
+  font-size: 11px;
+  font-weight: 400;
+}
+.internship-name>h3 {
+  font-size: 14px;
+  text-decoration: underline;
+}
+.internship>h4 {
+  font-size: 12px;
+  font-weight: 800;
+}
+.internship>p {
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 15px;
+}
+.internship-name>p {
+  font-size: 12px;
+}
+.internship {
+  display: grid;
+  gap: 0.2em;
+  margin-top: 12px;
+}
+.main-container {
+  /* width: 100%; */
+  /* background-color: black; */
+  /* background-image: url(image/leone-venter-VieM9BdZKFo-unsplash.jpg); */
+
+ 
+  /* align-items: center; */
+  /* justify-content: center; */
+  overflow: scroll; 
+  /* background-position: center; */
+
+  /* background-size: cover; */
+}
+}
